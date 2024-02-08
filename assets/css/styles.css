@@ -8,7 +8,7 @@ body {
 .resume {
     width: 80%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ec6db7;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,12 +28,17 @@ header {
 
 h1 {
     margin: 5px 0;
-    color: #333;
+    color: #1b48fa;
+}
+
+p {
+    margin: 10px 0;
+    color: #0dc4e9;
 }
 
 h2 {
     margin: 10px 0;
-    color: #666;
+    color: #72b7d4;
 }
 
 ul {
@@ -43,5 +48,24 @@ ul {
 
 li {
     margin-bottom: 5px;
-    color: #444;
+    color: #053a6ce3;
+}
+
+.contact-info,
+.academic,
+.internship,
+.technical,
+.project {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-info h2,
+.academic h2,
+.internship h2,
+.technical h2,
+.project h2 {
+    color: #bf3333;
 }
